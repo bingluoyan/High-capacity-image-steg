@@ -1,8 +1,10 @@
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QComboBox, QPushButton, QFileDialog
-from steganogan import SteganoGAN
-# 这个分支的目的是修改路径
+
+
+
+
 class MainScreen(QMainWindow):
     def __init__(self):
         super().__init__()
